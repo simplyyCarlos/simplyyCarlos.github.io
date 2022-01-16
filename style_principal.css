@@ -1,0 +1,234 @@
+body{
+ font-family: Arial;
+ margin: 0;
+ text-align: center;
+}
+
+button{
+   cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#headlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: #1b98e0;
+    height : 90px;
+    padding-inline-start: 0px;
+    
+}
+
+#headlist #fondlogo{
+    background-color: #4A4A4A;
+    opacity: 60%;
+}
+#headlist li img{
+    height :65px;
+    margin-top: 10px;
+}
+#headlist li button{
+    width: 200px;
+    height: 90px;
+    background-color: #1b98e0;
+    border: none;
+   font-size: x-large;
+   color: white;
+}
+
+#headlist li button:hover{
+    background-color: #1678B1;
+}
+    
+
+#logo{
+    background-color: #EEEEEE;
+}
+#logo img{
+    width: 50%;
+}
+
+#img1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 6%;
+    margin-right: 6%;
+    
+}
+#img1 img{
+    width: 80%;
+}
+
+#img2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 6%;
+    justify-content: space-between;
+    max-height: 365px;
+    
+  
+}
+#img2 img{
+    width: 95%;
+    height: 100%;
+}
+
+
+.TitrePage{
+    font-size: 80px;
+}
+#presentation p{
+    font-size: 50px;
+}
+.textimage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+
+.posrelat{
+    position:relative;
+}
+
+#boutique{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-height: 500px;
+    padding-left: 15%;
+    padding-right: 15%;
+  
+
+}
+
+#imgPull{
+    width: 35%;
+}
+
+#gris{
+    background-color: #EEEEEE;
+    padding-bottom: 40px;
+}
+
+#prix{
+    width: 35%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#prix h3{
+    font-size: 50px;
+}
+#prix p{
+    font-size: 30px;
+}
+#stat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 30px;
+    padding-bottom: 40px;
+    padding-top: 80px;
+}
+
+#stat p{
+   margin:0px;
+}
+.tailleArticle{
+    width: 20%;
+}
+
+.chiffre{
+    font-size: 70px;
+}
+
+.vert {
+    color: rgb(35, 212, 35);
+}
+.rouge {
+    color: red;
+}
+.bleu {
+    color: blue;
+}
+
+#bouttonBoutique{
+    width: 20%;
+    height: 70px;
+    background-color: #1b98e0;
+    border: none;
+   font-size: x-large;
+   color: white;
+   border-radius: 25px;
+
+   
+}
+#bouttonBoutique:hover{
+    background-color: #1678B1;
+}
+
+.titreBoutique{
+    font-size: 65px;
+    padding-top: 40px;
+}
+
+footer{
+    background-color: #1b98e0;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.displayfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 35px;
+    
+}
+
+#bouttonContact{
+    width: 20%;
+    height: 60px;
+    background-color: #1b98e0;
+    border-color: white;
+   font-size: x-large;
+   color: white;
+   border-radius: 10px;
+   border-style: solid;
+   margin-top: 15px;
+}
+
+#bouttonContact:hover{
+    background-color: white;
+    color:#1678B1;
+}
+
+#pcontact{
+    font-size: 30px;
+    
+}
+
+#linkfooter{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20%;
+}
+#league{
+    background-color: black;
+    margin-top: 50px;
+}
+
